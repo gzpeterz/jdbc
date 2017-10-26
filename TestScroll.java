@@ -23,6 +23,7 @@ public class TestScroll {
 			System.out.println(rs.getString(1));
 			rs.absolute(6);
 			System.out.println(rs.getString(1));
+			// dskajfkasfjajkdf
 			rs.close();
 			stmt.close();
 			conn.close();
