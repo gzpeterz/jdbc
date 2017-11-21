@@ -2,6 +2,7 @@ import java.sql.*;
 class Rsmd{  
 public static void main(String args[]){  
 try{  
+	// this is in branch2
 Class.forName("oracle.jdbc.driver.OracleDriver");  
 Connection con=DriverManager.getConnection(  
 "jdbc:oracle:thin:@localhost:1521:xe","system","oracle");  
