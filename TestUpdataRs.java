@@ -11,6 +11,7 @@ public class TestUpdataRs {
 	    ResultSet rs=stmt.executeQuery("select * from emp2");
 	    
 	    rs.next();
+	    // modify in remote
 	    //更新一行数据
 	    rs.updateString("ename","AAAA");
 	    rs.updateRow();
