@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 this is for merge
+=======
+this is other people
+>>>>>>> 74f64b26ad4407af554862b25e03c4578941df10
